@@ -1,0 +1,5 @@
+.DS_Store
+.yo-rc.json
+dist/
+node_modules/
+*.log
