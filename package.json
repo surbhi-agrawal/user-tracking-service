@@ -28,6 +28,7 @@
     "moment-timezone": "^0.5.25",
     "mongoose": "^5.5.4",
     "swagger-ui-express": "^4.0.2",
+    "uuid": "^3.3.2",
     "yamljs": "^0.3.0"
   }
 }
