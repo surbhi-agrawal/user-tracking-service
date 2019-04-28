@@ -1,0 +1,33 @@
+{
+  "name": "user-tracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/server.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "npm run serve",
+    "serve": "node dist/src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/joi": "^13.0.8",
+    "@types/mongoose": "^5.3.27",
+    "tslint": "^4.1.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/swagger-ui-express": "^3.0.0",
+    "@types/yamljs": "^0.2.30",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "joi": "^10.0.1",
+    "joigoose": "^2.0.0",
+    "moment-timezone": "^0.5.25",
+    "mongoose": "^5.5.4",
+    "swagger-ui-express": "^4.0.2",
+    "yamljs": "^0.3.0"
+  }
+}

@@ -1,0 +1,28 @@
+swagger: '2.0'
+info:
+  description: >-
+    The user.tracking API all communication between the AMS and the myplay application.
+  version: 1.0.0
+  title: myplay-api-offermanagement-ams-processor
+  termsOfService: 'http://stationcasinos.com/terms/'
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+basePath: 
+tags:
+  - name: Health
+    description: Returns service is up.   
+schemes:
+  - http
+paths:
+  /v1/health:
+    get:
+      summary: This verifies the service is running
+      tags:
+        - Health
+      responses:
+        '200':
+          description: Healthy service.          
+        default:
+          description: Unhealthy service.
+  
